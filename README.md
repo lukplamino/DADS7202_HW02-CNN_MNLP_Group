@@ -17,4 +17,4 @@ Term: 1 Year of education: 2022
 
 
 
-[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/edit/main/README.md#highlight)
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
