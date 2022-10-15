@@ -22,15 +22,21 @@ There are many banana varieties in Thailand and each one of them has different c
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
   
   The fruit looks a little bit angled with a thick skin and a sweet flavor.
+  
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cultivated%20banana.png" style="width:300px;"/>
  
  🍌 **2. Sugar banana - กล้วยไข่**
   
   The fruit is short and round. Its skin is thin with dark spots. 
+
  
  🍌 **3. Lady finger banana - กล้วยเล็บมือนาง**
   
   Lady finger banana is one of the smallest bananas. Its skin is thick with a soft flesh inside.
+  
+  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Lady%20finger%20banana.png" style="width:300px;"/>
+  
+  
  
  🍌 **4. Cavendish banana - กล้วยหอม**
   
