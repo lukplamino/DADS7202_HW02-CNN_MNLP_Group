@@ -7,9 +7,9 @@
 
  - [1. Introduction🎯](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#1-introduction)
  - [2. Data📑](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group#2-data)
- - [3. Network architecture📦]()
- - [4. Training🔮]()
- - [5. Results📈]()
+ - [3. Network architecture📦](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group#3-network-architecture)
+ - [4. Training🔮](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group#4-training)
+ - [5. Results📈](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group#5-results)
  - [6. Discussion💭](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#6-discussion)
  - [7. Conclusion📊](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#7-conclusion)
  - [8. References🌐](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#8-references)
