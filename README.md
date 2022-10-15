@@ -17,11 +17,20 @@
 ## 2. Data📑
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
  
+ The fruit looks a little bit angled with a thick skin and a sweet flavor.
+ 
  🍌 **2. Sugar banana - กล้วยไข่**
+ 
+ The fruit is short and round. Its skin is thin with dark spots. 
  
  🍌 **3. Lady finger banana - กล้วยเล็บมือนาง**
  
+ Lady finger banana is one of the smallest bananas. Its skin is thick with a soft flesh inside.
+ 
  🍌 **4. Cavendish banana - กล้วยหอม**
+ 
+ The fruit is long with a thin skin. It offers a sweet flavor along with a uniquely pleasant smell.
+ 
 #### 📍Data source: 
 
 #### ✂️Data splitting (train/val/test):
