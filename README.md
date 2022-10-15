@@ -33,26 +33,26 @@ There are many banana varieties in Thailand and each one of them has different c
   
   The fruit looks a little bit angled with a thick skin and a sweet flavor.
   
-  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cultivated%20banana.png" style="width:170px;"/>
+  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cultivated%20banana.png" style="width:120px;"/>
  
  🍌 **2. Sugar banana - กล้วยไข่**
   
   The fruit is short and round. Its skin is thin with dark spots. 
   
-  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Sugar%20banana.png" style="width:170px;"/>
+  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Sugar%20banana.png" style="width:120px;"/>
  
  🍌 **3. Lady finger banana - กล้วยเล็บมือนาง**
   
   Lady finger banana is one of the smallest bananas. Its skin is thick with a soft flesh inside.
   
-   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Lady%20finger%20banana.png" style="width:170px;"/>
+   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Lady%20finger%20banana.png" style="width:120px;"/>
   
    
  🍌 **4. Cavendish banana - กล้วยหอม**
   
   The fruit is long with a thin skin. It offers a sweet flavor along with a uniquely pleasant smell.
   
-  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:170px;"/>
+  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:120px;"/>
  
 #### 📍Data source: 
 - We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images from **`google image`**. 
