@@ -5,10 +5,16 @@
 
 ## Table of Contents
 
+ - [1. Introduction🎯](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#1-introduction)
+ - [👥 Members, Percent Contribution and Responsibility](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#-members-percent-contribution-and-responsibility)
+ - [🖇️End Credit ](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#%EF%B8%8Fend-credit)
 
 
 
 ## 1. Introduction🎯 
+
+ 
+## 2. Data📑
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
  
  🍌 **2. Sugar banana - กล้วยไข่**
@@ -16,12 +22,11 @@
  🍌 **3. Lady finger banana - กล้วยเล็บมือนาง**
  
  🍌 **4. Cavendish banana - กล้วยหอม**
- 
-## 2. Data📑
-
 #### 📍Data source: 
 
 #### ✂️Data splitting (train/val/test):
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 
 ## 👥 Members, Percent Contribution and Responsibility 
@@ -31,6 +36,7 @@
 |2.  |**`6410422003`**  |[Pakawut Kam.](https://www.kaggle.com/ppakawut)                     |   **`25%`**     |**`Collecting data (Lady finger banana)`**  |
 |3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**   |
 |4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Collecting data (Sugar banana)`**  |
+
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
@@ -43,8 +49,6 @@ Term: 1 Year of education: 2022
 🎓Master of Science Program in **`Data Analytics and Data Science`** (DADS)
 
 🏫National Institute of Development Administration (**`NIDA`**)
-
-
 
 
 
