@@ -6,6 +6,8 @@
 ## Table of Contents
 
  - [1. Introduction🎯](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#1-introduction)
+ - [7. References🌐]
+ - [Citing]
  - [👥 Members, Percent Contribution and Responsibility](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#-members-percent-contribution-and-responsibility)
  - [🖇️End Credit ](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#%EF%B8%8Fend-credit)
 
@@ -15,21 +17,40 @@
 
  
 ## 2. Data📑
+There are many banana varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana.
+
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
+  
   The fruit looks a little bit angled with a thick skin and a sweet flavor.
  
  🍌 **2. Sugar banana - กล้วยไข่**
+  
   The fruit is short and round. Its skin is thin with dark spots. 
  
  🍌 **3. Lady finger banana - กล้วยเล็บมือนาง**
+  
   Lady finger banana is one of the smallest bananas. Its skin is thick with a soft flesh inside.
  
  🍌 **4. Cavendish banana - กล้วยหอม**
+  
   The fruit is long with a thin skin. It offers a sweet flavor along with a uniquely pleasant smell.
  
 #### 📍Data source: 
 
 #### ✂️Data splitting (train/val/test):
+
+## 7. References🌐
+
+### Library
+
+### Version
+
+### References
+- _-. (2019)_
+[**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
+
+## Citing
+
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
