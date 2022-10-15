@@ -10,8 +10,8 @@
  - [3. Network architecture📦]()
  - [4. Training🔮]()
  - [5. Results📈]()
- - [6. Discussion💭]()
- - [7. Conclusion📊]()
+ - [6. Discussion💭](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#6-discussion)
+ - [7. Conclusion📊](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#7-conclusion)
  - [8. References🌐](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#8-references)
  - [Citing](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#citing)
  - [👥 Members, Percent Contribution and Responsibility](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#-members-percent-contribution-and-responsibility)
@@ -61,6 +61,19 @@ There are many banana varieties in Thailand and each one of them has different c
 - `test_size` = 
 - **`Train Shape`**: 
 - **`Test Shape`**: 
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
+
+## 3. Network architecture📦
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
+
+
+## 4. Training🔮
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
+
+## 5. Results📈
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
