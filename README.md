@@ -49,7 +49,7 @@ There are many banana varieties in Thailand and each one of them has different c
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:200px;"/>
  
 #### 📍Data source: 
-- Use **[Download All Images]**(https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect image data from google image
+- Use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect image data from google image
 
 #### ✂️Data splitting (train/val/test):
 
