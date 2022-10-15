@@ -1,5 +1,5 @@
 # DADS7202_Group Assignment 2 CNN (Group_MNLP)
-
+> Objective: **`What do you use to train an image classiffier with our custom image dataset?`**
 ## ✨Highlight
 เป็นข้อคิดเห็น การค้นพบ ข้อสรุปหรือข้อมูล insight น่าสนใจที่  3-5 bullets
 
@@ -22,6 +22,7 @@ There are many banana varieties in Thailand and each one of them has different c
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
   
   The fruit looks a little bit angled with a thick skin and a sweet flavor.
+  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cultivated%20banana.png" style="width:300px;"/>
  
  🍌 **2. Sugar banana - กล้วยไข่**
   
@@ -34,6 +35,8 @@ There are many banana varieties in Thailand and each one of them has different c
  🍌 **4. Cavendish banana - กล้วยหอม**
   
   The fruit is long with a thin skin. It offers a sweet flavor along with a uniquely pleasant smell.
+  
+  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:300px;"/>
  
 #### 📍Data source: 
 
