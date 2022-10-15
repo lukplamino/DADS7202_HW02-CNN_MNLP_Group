@@ -6,6 +6,7 @@
 ## Table of Contents
 
  - [1. Introduction🎯](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#1-introduction)
+ - [2. Data📑](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group#2-data)
  - [7. References🌐](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#7-references)
  - [Citing](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#citing)
  - [👥 Members, Percent Contribution and Responsibility](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#-members-percent-contribution-and-responsibility)
@@ -15,6 +16,9 @@
 
 ## 1. Introduction🎯 
 
+**`multi-class classification`**:
+
+This project aims to use 3 pre-training model...
  
 ## 2. Data📑
 There are many banana varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana.
@@ -45,6 +49,7 @@ There are many banana varieties in Thailand and each one of them has different c
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:200px;"/>
  
 #### 📍Data source: 
+- Use **[Download All Images]**(https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect image data from google image
 
 #### ✂️Data splitting (train/val/test):
 
