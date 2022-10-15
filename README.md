@@ -9,12 +9,27 @@
 
 
 ## 1. Introduction🎯 
-
+ 🍌 Cultivated banana - กล้วยน้ำว้า
+ 🍌 Sugar banana - กล้วยไข่
+ 🍌 Lady finger banana - กล้วยเล็บมือนาง
+ 🍌 Cavendish banana - กล้วยหอม
+ 
 ## 2. Data📑
 
 #### 📍Data source: 
 
 #### ✂️Data splitting (train/val/test):
+
+
+## 👥 Members, Percent Contribution and Responsibility 
+|No  |ID                |Name                              |% Contribution |Responsibility                             |
+|:---:|:---:             |---                               |:---:            |:---|
+|1.  |**`6410422002`**  |[Navapol San.](https://www.kaggle.com/navapol)                      |   **`25%`**     |**`Collecting data (Cavendish banana)`**   
+|2.  |**`6410422003`**  |[Pakawut Kam.](https://www.kaggle.com/ppakawut)                     |   **`25%`**     |**`Collecting data (Lady finger banana)`**  |
+|3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**   |
+|4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Collecting data (Sugar banana)`**  |
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 
 ## 🖇️End Credit 
