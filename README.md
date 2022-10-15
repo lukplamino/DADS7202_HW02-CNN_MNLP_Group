@@ -55,7 +55,11 @@ There are many banana varieties in Thailand and each one of them has different c
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:170px;"/>
  
 #### 📍Data source: 
-- We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images from **`google image`**. It's a simple and fast way to collect set of images. However, we have to clean the dataset by manually removing some irrelevant images i.e. banana dessert, banana trunk, and other banana parts.
+- We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images from **`google image`**. 
+
+#### data preparation:
+- Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type label.
+
 
 #### ✂️Data splitting (train/val/test):
 - `random_state` =  
