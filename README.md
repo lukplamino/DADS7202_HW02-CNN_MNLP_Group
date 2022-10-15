@@ -52,6 +52,22 @@ There are many banana varieties in Thailand and each one of them has different c
 - Use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect image data from google image
 
 #### ✂️Data splitting (train/val/test):
+- `random_state` =  
+- `test_size` = 
+- **`Train Shape`**: 
+- **`Test Shape`**: 
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
+
+
+## 5. Discussion💭
+
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
+
+## 6. Conclusion📊
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## 7. References🌐
 
@@ -62,6 +78,8 @@ There are many banana varieties in Thailand and each one of them has different c
 ### References
 - _-. (2019)_
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
+
+[🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## Citing
 
