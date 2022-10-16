@@ -34,7 +34,7 @@
 <!-- เป้าหมายของโปรเจกต์นี้คือเราต้องการทดลองใช้ Main Pre-training models ในการแยกประเภทของกล้วย 4 ชนิด ได้แก่ ... ซึ่งเป็น dataset ที่เรา custom เอง โดยเราจะทำการเปรียบเทียบ performance ของ 4 Pre-training models นี้ ทั้งแบบ original และแบบ fine-tuning แล้วด้วย ว่า Model ไหนจะเหมาะสมในการทำนายข้อมูลของเรามากที่สุด  --> 
  
 ## 2. Data📑
-There are many banana varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana before traning and finetuning models.
+There are many banana varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana before training and finetuning models.
 
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
   
