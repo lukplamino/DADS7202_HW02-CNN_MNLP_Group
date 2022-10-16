@@ -118,7 +118,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## Citing
-[Bib.file](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Citing_CNN.bib)
+[Bib.file](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Citing_CNN_MNLP.bib)
 
 ```
 @Misc{MNLP,
