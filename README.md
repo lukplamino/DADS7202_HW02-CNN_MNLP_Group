@@ -118,7 +118,17 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## Citing
-<!-- This content will not appear in the rendered Markdown -->
+[Bib.file](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Citing_CNN.bib)
+
+```
+@Misc{MNLP,
+    AUTHOR          = {Navapol San. , Pakawut Kam. , Supisara Poo. , Kantima Tec.},
+    TITLE           = {Model : CNN image classification model with finetuning on a custom dataset},
+    YEAR            = {2022},
+    howpublished    = "\url{https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group.git}"
+}
+```
+
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
