@@ -1,6 +1,9 @@
 # DADS7202_Group Assignment 2 CNN (Group_MNLP)
 > Objective: **`What do you use to train an image classiffier with our custom image dataset?`**
 ## ✨Highlight
+- 1...
+- 2...
+- 3...
 
 <!-- เป็นข้อคิดเห็น การค้นพบ ข้อสรุปหรือข้อมูล insight น่าสนใจที่  3-5 bullets -->
 
@@ -63,7 +66,9 @@ There are many banana varieties in Thailand and each one of them has different c
 
 #### 🧹Data preparation:
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type label.
-
+- 
+#### Data pre-processing: **`➕Data Augmentation`** 
+<!-- ใช้ ImageDataGenerator or Random xx -->
 
 #### ✂️Data splitting (train/val/test):
 - `random_state` =  
