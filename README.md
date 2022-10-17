@@ -112,10 +112,10 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 ### Version
 <!-- This content will not appear in the rendered Markdown -->
 ### References
-- _-. (2019)_
+- _-. (2019)._
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
 - _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe. (2019)._ [**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
-- _[fchollet](https://twitter.com/fchollet). (2020, May 12)_[**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
+- _[fchollet](https://twitter.com/fchollet). (2020, May 12)._[**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
@@ -138,10 +138,10 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 ## 👥 Members, Percent Contribution and Responsibility 
 |No  |ID                |Name                              |% Contribution |Responsibility                             |
 |:---:|:---:             |---                               |:---:            |:---|
-|1.  |**`6410422002`**  |[Navapol San.](https://www.kaggle.com/navapol)                      |   **`25%`**     |**`Collecting data (Cavendish banana)`**   
-|2.  |**`6410422003`**  |[Pakawut Kam.](https://www.kaggle.com/ppakawut)                     |   **`25%`**     |**`Collecting data (Lady finger banana)`**  |
-|3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**   |
-|4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Collecting data (Sugar banana)`**  |
+|1.  |**`6410422002`**  |[Navapol San.](https://www.kaggle.com/navapol)                      |   **`25%`**     |**`Collecting data (Cavendish banana)`**, **`Train Model (EfficientNetB7)`**
+|2.  |**`6410422003`**  |[Pakawut Kam.](https://www.kaggle.com/ppakawut)                     |   **`25%`**     |**`Collecting data (Lady finger banana)`**, **`Train Model (EfficientNetB7)`**  |
+|3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**, **`Train Model (ResNet50V2)`**   |
+|4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Collecting data (Sugar banana)`**, **`Train Model (VGG16)`**  |
 
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
