@@ -114,8 +114,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 ### References
 - _-. (2019)_
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
-- _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe _
-[**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
+- _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe. (2019)._ [**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
