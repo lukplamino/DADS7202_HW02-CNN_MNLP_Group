@@ -27,7 +27,7 @@
 
 **`multi-class classification`**:
 
-- This project aims to test 4 **pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB0`, `EfficientNetB0`) for classifying 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained before. 
+- This project aims to test 3 **pre-training models** (`VGG16`, `ResNet50`, `EfficientNetB7`) for classifying 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained before. 
 - Then, we will compare performance of 4 **pre-training models** without transfer learning and with transfer learning (Finetuning).
 - Finally, we use **`Grad-CAM`** technique to debug the model and gain more insight into what a trained CNN did.
  
@@ -80,8 +80,9 @@ There are many banana varieties in Thailand and each one of them has different c
 
 ## 3. Network architecture📦
 
-### **Pre-training Models** which were selected for fine-tuning
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:250px;"/>
+### Pre-training Models 
+3 Pre-training Models which were selected for fine-tuning
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:400px;"/>
 
 <!-- รายละเอียดต่าง ๆ ของโมเดลที่เลือกใช้ (เช่น จำนวนและตำแหน่งการวาง layer, จำนวน nodes, activation function, regularization) ในรูปแบบของ network diagram หรือตาราง (โดยใส่ข้อมูลให้ละเอียดพอที่คนที่มาอ่าน จะสามารถไปสร้าง network ตามเราได้) -->
 
