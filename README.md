@@ -27,7 +27,7 @@
 
 **`multi-class classification`**:
 
-- This project aims to test **3 pre-training models** (`VGG16`, `ResNet50`, `EfficientNetB7`) for classifying 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained before. 
+- This project aims to test **3 pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) for classifying 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained before. 
 - Then, we will compare performance of **3 pre-training models** without transfer learning and with transfer learning (Fine-tuning).
 - Finally, we use **`Grad-CAM`** technique to debug the model and gain more insight into what a trained CNN did.
  
@@ -82,7 +82,8 @@ There are many banana varieties in Thailand and each one of them has different c
 
 ### Pre-training Models 
 3 Pre-training Models which were selected for fine-tuning
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:400px;"/>
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:550px;"/>
 
 <!-- รายละเอียดต่าง ๆ ของโมเดลที่เลือกใช้ (เช่น จำนวนและตำแหน่งการวาง layer, จำนวน nodes, activation function, regularization) ในรูปแบบของ network diagram หรือตาราง (โดยใส่ข้อมูลให้ละเอียดพอที่คนที่มาอ่าน จะสามารถไปสร้าง network ตามเราได้) -->
 
@@ -121,6 +122,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
 - _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe. (2019)._ [**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
 - _[fchollet](https://twitter.com/fchollet). (2020, May 12)._[**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
+- **Keras Applications**](https://keras.io/api/applications/). Keras.
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
