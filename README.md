@@ -28,7 +28,7 @@
 **`multi-class classification`**:
 
 - This project aims to test **3 pre-training models** (`VGG16`, `ResNet50`, `EfficientNetB7`) for classifying 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained before. 
-- Then, we will compare performance of **3 pre-training models** without transfer learning and with transfer learning (Finetuning).
+- Then, we will compare performance of **3 pre-training models** without transfer learning and with transfer learning (Fine-tuning).
 - Finally, we use **`Grad-CAM`** technique to debug the model and gain more insight into what a trained CNN did.
  
 <!-- เป้าหมายของโปรเจกต์นี้คือเราต้องการทดลองใช้ Main Pre-training models ในการแยกประเภทของกล้วย 4 ชนิด ได้แก่ ... ซึ่งเป็น dataset ที่เรา custom เอง โดยเราจะทำการเปรียบเทียบ performance ของ 4 Pre-training models นี้ ทั้งแบบ original และแบบ fine-tuning แล้วด้วย ว่า Model ไหนจะเหมาะสมในการทำนายข้อมูลของเรามากที่สุด  --> 
