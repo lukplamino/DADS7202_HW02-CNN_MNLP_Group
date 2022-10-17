@@ -27,11 +27,10 @@
 
 **`multi-class classification`**:
 
-- This project aims to test **3 pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) for classifying 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained before. 
-- Then, we will compare performance of **3 pre-training models** without transfer learning and with transfer learning (Fine-tuning).
+- This project aims to test 3**CNN pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) on the ImageNet dataset and fine-tune it to classify 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained on. 
+- Then, we will compare performance of **3 CNN pre-training models** without transfer learning and with transfer learning (Fine-tuning).
 - Finally, we use **`Grad-CAM`** technique to debug the model and gain more insight into what a trained CNN did.
- 
-<!-- เป้าหมายของโปรเจกต์นี้คือเราต้องการทดลองใช้ Main Pre-training models ในการแยกประเภทของกล้วย 4 ชนิด ได้แก่ ... ซึ่งเป็น dataset ที่เรา custom เอง โดยเราจะทำการเปรียบเทียบ performance ของ 4 Pre-training models นี้ ทั้งแบบ original และแบบ fine-tuning แล้วด้วย ว่า Model ไหนจะเหมาะสมในการทำนายข้อมูลของเรามากที่สุด  --> 
+
  
 ## 2. Data📑
 There are many banana varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana before training and finetuning models.
@@ -65,7 +64,7 @@ There are many banana varieties in Thailand and each one of them has different c
 - We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images by searching keywords (4 types of banana) from **`google image`** 
 
 #### 🧹Data preparation:
-- Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type label.
+- Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
 - 
 #### Data pre-processing: **`➕Data Augmentation`** 
 <!-- ใช้ ImageDataGenerator or Random xx -->
@@ -81,7 +80,7 @@ There are many banana varieties in Thailand and each one of them has different c
 ## 3. Network architecture📦
 
 ### Pre-training Models 
-3 Pre-training Models which were selected for fine-tuning
+In this experiment,we have selected 3 Pre-training Models for fine-tuning
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:550px;"/>
 
