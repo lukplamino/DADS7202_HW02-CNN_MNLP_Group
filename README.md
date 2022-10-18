@@ -59,10 +59,19 @@ There are many banana varieties in Thailand and each one of them has different c
   The fruit is long with a thin skin. It offers a sweet flavor along with a uniquely pleasant smell.
   
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:120px;"/>
+
+- Total 800 images (200 images per 1 class)
+| Class | Name               | No. of image |
+|0      | Lady Finger Banana | 200          |
+|1      | CavendishBanana    | 200          |
+|2      | Cultivated Banana  | 200          |
+|3      | Sugar Banana       | 200          |
+|       | Total              | 800          |
+
  
 #### 📍Data source: 
 - We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images by searching keywords (4 types of banana) from **`google image`** 
-- Total 800 images (200 images per 1 class)
+
 
 #### 🧹Data preparation:
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
@@ -71,10 +80,10 @@ There are many banana varieties in Thailand and each one of them has different c
 <!-- ใช้ ImageDataGenerator or Random xx -->
 
 #### ✂️Data splitting (train/val/test):
-- `random_state` =  
-- `test_size` = 
-- **`Train Shape`**: 
-- **`Test Shape`**: 
+- `random_state` = 3
+- `test_size` = 0.2
+- **`Train`**: 640
+- **`Test`**: 160
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
