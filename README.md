@@ -82,7 +82,7 @@ height_shift_range=0.25,
 horizontal_flip=True,
 vertical_flip=True,
 ```
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:250px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:350px;"/>
 
 
 #### ✂️Data splitting (train/val/test):
