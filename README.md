@@ -61,12 +61,13 @@ There are many banana varieties in Thailand and each one of them has different c
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:120px;"/>
 
 - Total 800 images (200 images per 1 class)
+
 | Class | Name               | No. of image |
 |:---:|:---|---:|
-|0      | Lady Finger Banana | 200          |
-|1      | CavendishBanana    | 200          |
-|2      | Cultivated Banana  | 200          |
-|3      | Sugar Banana       | 200          |
+|`0`      | Lady Finger Banana | 200          |
+|`1`      | CavendishBanana    | 200          |
+|`2`      | Cultivated Banana  | 200          |
+|`3`      | Sugar Banana       | 200          |
 |       | **Total **             | **800**          |
 
  
