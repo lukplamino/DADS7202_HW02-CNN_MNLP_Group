@@ -62,6 +62,7 @@ There are many banana varieties in Thailand and each one of them has different c
 
 - Total 800 images (200 images per 1 class)
 | Class | Name               | No. of image |
+|:---:  |---                 |          ---:|
 |0      | Lady Finger Banana | 200          |
 |1      | CavendishBanana    | 200          |
 |2      | Cultivated Banana  | 200          |
