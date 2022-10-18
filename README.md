@@ -27,7 +27,7 @@
 
 **`multi-class classification`**:
 
-- This project aims to test **3 CNN pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) on the ImageNet dataset and fine-tune it to classify 4 types of bananas 🍌 (`Cultivated banana`, `Sugar banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained on. 
+- This project aims to test **3 CNN pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) on the ImageNet dataset and fine-tune it to classify 3 types of bananas 🍌 (`Cultivated banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained on. 
 - Then, we will compare performance of **3 CNN pre-training models** without transfer learning and with transfer learning (Fine-tuning).
 - Finally, we use **`Grad-CAM`** technique to debug the model and gain more insight into what a trained CNN did.
 
@@ -41,20 +41,14 @@ There are many banana varieties in Thailand and each one of them has different c
   
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cultivated%20banana.png" style="width:120px;"/>
  
- 🍌 **2. Sugar banana - กล้วยไข่**
-  
-  The fruit is short and round. Its skin is thin with dark spots. 
-  
-  <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Sugar%20banana.png" style="width:120px;"/>
- 
- 🍌 **3. Lady finger banana - กล้วยเล็บมือนาง**
+ 🍌 **2. Lady finger banana - กล้วยเล็บมือนาง**
   
   Lady finger banana is one of the smallest bananas. Its skin is thick with a soft flesh inside.
   
    <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Lady%20finger%20banana.png" style="width:120px;"/>
   
    
- 🍌 **4. Cavendish banana - กล้วยหอม**
+ 🍌 **3. Cavendish banana - กล้วยหอม**
   
   The fruit is long with a thin skin. It offers a sweet flavor along with a uniquely pleasant smell.
   
@@ -67,8 +61,7 @@ There are many banana varieties in Thailand and each one of them has different c
 |`0`      | Lady Finger Banana | 200          |
 |`1`      | CavendishBanana    | 200          |
 |`2`      | Cultivated Banana  | 200          |
-|`3`      | Sugar Banana       | 200          |
-|       | **Total**             | **800**          |
+|       | **Total**             | **600**          |
 
  
 #### 📍Data source: 
@@ -89,12 +82,14 @@ height_shift_range=0.25,
 horizontal_flip=True,
 vertical_flip=True,
 ```
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:250px;"/>
+
 
 #### ✂️Data splitting (train/val/test):
 - `random_state` = 3
 - `test_size` = 0.3
-- **`Train`**: 640
-- **`Test`**: 160
+- **`Train`**: 420
+- **`Test`**: 180
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
