@@ -79,11 +79,20 @@ There are many banana varieties in Thailand and each one of them has different c
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
 - 
 #### Data pre-processing: **`➕Data Augmentation`** 
-<!-- ใช้ ImageDataGenerator or Random xx -->
+- We use **`Data Augmentation`** technique to increase the diversity of our training set by applying **`ImageDataGenerator`** 
+- We apply various changes to the initial data. For example, image rotation, rescale, and flip
+```
+rescale=1./255,
+rotation_range=20,
+width_shift_range=0.25,
+height_shift_range=0.25,
+horizontal_flip=True,
+vertical_flip=True,
+```
 
 #### ✂️Data splitting (train/val/test):
 - `random_state` = 3
-- `test_size` = 0.2
+- `test_size` = 0.3
 - **`Train`**: 640
 - **`Test`**: 160
 
@@ -159,7 +168,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 |1.  |**`6410422002`**  |[Navapol San.](https://www.kaggle.com/navapol)                      |   **`25%`**     |**`Collecting data (Cavendish banana)`**, **`Train Model (EfficientNetB7)`**
 |2.  |**`6410422003`**  |[Pakawut Kam.](https://www.kaggle.com/ppakawut)                     |   **`25%`**     |**`Collecting data (Lady finger banana)`**, **`Train Model (EfficientNetB7)`**  |
 |3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**, **`Train Model (ResNet50V2)`**   |
-|4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Collecting data (Sugar banana)`**, **`Train Model (VGG16)`**  |
+|4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Train Model (VGG16)`**, **`Summary the report`**  |
 
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
