@@ -54,7 +54,7 @@ There are many banana varieties in Thailand and each one of them has different c
   
   <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Cavendish%20banana.jpg" style="width:120px;"/>
 
-- Total 800 images (200 images per 1 class)
+- Total 600 images (200 images per 1 class)
 
 | Class | Name               | No. of image |
 |:---:|---|---:|
@@ -73,12 +73,9 @@ There are many banana varieties in Thailand and each one of them has different c
 - 
 #### Data pre-processing: **`➕Data Augmentation`** 
 - We use **`Data Augmentation`** technique to increase the diversity of our training set by applying **`ImageDataGenerator`** 
-- We apply various changes to the initial data. For example, image rotation, rescale, and flip
+- We apply various changes to the initial data. For example, image rotation and flip
 ```
-rescale=1./255,
 rotation_range=20,
-width_shift_range=0.25,
-height_shift_range=0.25,
 horizontal_flip=True,
 vertical_flip=True,
 ```
