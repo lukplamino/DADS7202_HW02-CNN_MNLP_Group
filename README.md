@@ -134,7 +134,8 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
 - _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe. (2019)._ [**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
 - _[fchollet](https://twitter.com/fchollet). (2020, May 12)._[**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
-- [**Keras Applications**](https://keras.io/api/applications/). Keras.
+- [**Keras Applications**](https://keras.io/api/applications/). Github.
+- _Jason Brownlee. (2019, Jul 5)._ [**How to Normalize, Center, and Standardize Image Pixels in Keras**](https://machinelearningmastery.com/how-to-normalize-center-and-standardize-images-with-the-imagedatagenerator-in-keras/). Machine Learning Mastery.
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
