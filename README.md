@@ -33,7 +33,7 @@
 
  
 ## 2. Data📑
-There are many banana varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana before training and finetuning models.
+There are many banana<sub>1</sub> varieties in Thailand and each one of them has different characteristics. Let’s find out interesting facts about different varieties of banana before training and finetuning models.
 
  🍌 **1. Cultivated banana - กล้วยน้ำว้า**
   
@@ -188,7 +188,7 @@ Time per inference step is the average of epoch.
 ### Version
 <!-- This content will not appear in the rendered Markdown -->
 ### References
-- _-. (2019)._
+- <sub>1</sub>_-. (2019)._
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019). Topspicks.
 - _-. (2022, Sep 8)._ [**tf.keras.preprocessing.image.ImageDataGenerator**](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator). TensorFlow.
 - _Dustin. (2022, Oct 20)._ [**[Notebooks update] New GPU (T4s) options & more CPU RAM**](https://www.kaggle.com/discussions/product-feedback/361104?fbclid=IwAR2qbmFZTP6BbI7T-hHAAg8ByGiM9cZW_Ik6nHK7-WlRAu8UzoF0R2yCKZY). Kaggle.
