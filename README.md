@@ -151,7 +151,7 @@ Time per inference step is the average of total epoch.
 - **`GPU`**: Tesla T4
 - **`Batch size`**: xx
 
-#### 🔦 Visualizing what CNN learned with `Grad-Cam`
+### 🔦 Visualizing what CNN learned with `Grad-Cam`
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
