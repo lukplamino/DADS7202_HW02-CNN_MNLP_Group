@@ -71,9 +71,11 @@ There are many banana varieties in Thailand and each one of them has different c
 #### 🧹Data preparation:
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
 - 
-#### Data pre-processing: **`➕Data Augmentation`** 
-- We use **`Data Augmentation`** technique to increase the diversity of our training set by applying **`ImageDataGenerator`** 
+#### Data pre-processing
+- The set of images were rescaled to 224x224 pixels and normalized by 
+- We use **`➕Data Augmentation`** technique to increase the diversity of our training set by applying **`ImageDataGenerator`** 
 - We apply various changes to the initial data. For example, image rotation and flip
+❕❕ Be careful: 
 ```
 rotation_range=20,
 horizontal_flip=True,
