@@ -113,7 +113,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 การแสดงผลลัพธ์เทียบ train vs. validation (เช่น loss, accuracy) ถ้าเป็นไปได้ควรแสดงไว้ในกราฟเดียวกันเพื่อให้สามารถเทียบ scale ค่าผลลัพธ์และดู underfit / overfit ได้ง่าย-->
 
 
-###⌛ Runtime Comparison
+### ⌛ Runtime Comparison
 
 Avg.Time per epoch 
 - **`CPU`**: xx <!--AMD EPYC Processor (with IBPB) (92 core)-->
