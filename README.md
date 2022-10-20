@@ -87,7 +87,7 @@ There are many banana varieties in Thailand and each one of them has different c
         vertical_flip=True,
         validation_split=0.3
 ```
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:350px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:400px;"/>
 
 
 #### ✂️Data splitting (train/val/test):
@@ -120,10 +120,23 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 
 การแสดงผลลัพธ์เทียบ train vs. validation (เช่น loss, accuracy) ถ้าเป็นไปได้ควรแสดงไว้ในกราฟเดียวกันเพื่อให้สามารถเทียบ scale ค่าผลลัพธ์และดู underfit / overfit ได้ง่าย-->
 
+### 📊 Model Performance Comparison
+We train the model with initial random weights in the first round and more 4 rounds without random seed to calculate mean±SD of accuracy and loss as the average of the model performance
+In each round, accuracy and loss of validate and test sets are not significantly different. That proves the model is good fit.
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
+#### Accuracy and Loss on Train vs Validate sets
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
+### 🪟 Evaluation metric on Test set
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
 ### ⌛ Runtime Comparison
 
-Avg.Time per epoch 
+Time per inference step is the average of total epoch.
 - **`CPU`**: xx <!--AMD EPYC Processor (with IBPB) (92 core)-->
 - **`RAM`**: xx
 - **`GPU`**: Tesla T4
