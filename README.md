@@ -121,6 +121,11 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 การแสดงผลลัพธ์เทียบ train vs. validation (เช่น loss, accuracy) ถ้าเป็นไปได้ควรแสดงไว้ในกราฟเดียวกันเพื่อให้สามารถเทียบ scale ค่าผลลัพธ์และดู underfit / overfit ได้ง่าย-->
 
 ### 📊 Model Performance Comparison
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
+From the experiment, We fine-tune the pre-train model with Hyperparameter and find the best model with highest accuracy, less loss and not over-fit.
+
 We train the model with initial random weights in the first round and more 4 rounds without random seed to calculate mean±SD of accuracy and loss as the average of the model performance
 In each round, accuracy and loss of validate and test sets are not significantly different. That proves the model is good fit.
 
@@ -135,6 +140,8 @@ In each round, accuracy and loss of validate and test sets are not significantly
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
 ### ⌛ Runtime Comparison
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
 Time per inference step is the average of total epoch.
 - **`CPU`**: xx <!--AMD EPYC Processor (with IBPB) (92 core)-->
