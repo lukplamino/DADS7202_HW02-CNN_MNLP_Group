@@ -25,7 +25,7 @@
 
 ## 1. Introduction🎯 
 
-**`multi-class classification`**:
+**`multi-class image classification`**:
 
 - This project aims to test **3 CNN pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) on the ImageNet dataset and fine-tune it to classify 3 types of bananas 🍌 (`Cultivated banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained on. 
 - Then, we will compare performance of **3 CNN pre-training models** without transfer learning and with transfer learning (Fine-tuning).
@@ -72,14 +72,19 @@ There are many banana varieties in Thailand and each one of them has different c
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
 - 
 #### Data pre-processing
-- The set of images were rescaled to 224x224 pixels and normalized by 
+- The set of images were rescaled to 224x224 pixels and normalized by the ImageDataGenerator class with **`Pixel Standardization`** technique (zero mean and unit variance)
+❕❕ Be careful: The different normalization techniques effect the model's performance. (Loss and Accuracy).
 - We use **`➕Data Augmentation`** technique to increase the diversity of our training set by applying **`ImageDataGenerator`** 
-- We apply various changes to the initial data. For example, image rotation and flip
-❕❕ Be careful: 
+- We apply various changes to the initial data. For example, image rotation, zoom, shift and flip
+
 ```
-rotation_range=20,
-horizontal_flip=True,
-vertical_flip=True,
+        width_shift_range = 5.0,   
+        height_shift_range = 5.0,              
+        rotation_range=10,                               
+        zoom_range=0.2,
+        horizontal_flip=True,                 
+        vertical_flip=True,
+        validation_split=0.3
 ```
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:350px;"/>
 
