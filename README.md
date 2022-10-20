@@ -93,28 +93,48 @@ There are many banana varieties in Thailand and each one of them has different c
 #### ✂️Data splitting (train/val/test):
 - `random_state` = 3
 - `test_size` = 0.3
-- **`Train`**: 420
-- **`Test`**: 180
+- `validation_split` = 0.3
+- **`Train set`**: 294
+- **`Validation set`**: 126
+- **`Test set`**: 180
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## 3. Network architecture📦
 
 ### Pre-training Models 
-In this experiment,we have selected 4 Pre-training Models for fine-tuning with [**IMAGENET**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/) dataset as weight
+In this experiment, we have selected 4 Pre-training Models for fine-tuning with [**IMAGENET**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/) dataset as weight and complied with 
 
 #### [Pre-training model Infomation](https://keras.io/api/applications/)
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models_info.png" style="width:700px;"/>
 
+#### Network Architecture of Pre-training model 
+- To compare Network architecture of Pre-training model **`_without_ Fine-tuning`** VS **`with Fine-tuning`**
+- Remark: Based on our dataset and experiment scope
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
+#### Network Diagram of Pre-training model with Fine-tuning
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 <!-- รายละเอียดต่าง ๆ ของโมเดลที่เลือกใช้ (เช่น จำนวนและตำแหน่งการวาง layer, จำนวน nodes, activation function, regularization) ในรูปแบบของ network diagram หรือตาราง (โดยใส่ข้อมูลให้ละเอียดพอที่คนที่มาอ่าน จะสามารถไปสร้าง network ตามเราได้) -->
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 
 ## 4. Training🔮
+Our training strategy is...
+1. 
 <!-- รายละเอียดของการ train และ validate ข้อมูล รวมถึงทรัพยากรที่ใช้ในการ train โมเดลหนึ่ง ๆ เช่น training strategy (เช่น single loss, compound loss, two-step training, end-to-end training), loss, optimizer (learning rate, momentum, etc), batch size,
 epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TPU ที่ใช้, เวลาโดยประมาณที่ใช้ train โมเดลหนึ่งตัว ฯลฯ -->
+
+### ⌛ Runtime Comparison (on Train set) 
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
+Time per inference step is the average of epoch.
+- **`GPU`**: Tesla T4
+- **`Epoch`**: 30
+
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## 5. Results📈
@@ -141,15 +161,7 @@ In each round, accuracy and loss of validate and test sets are not significantly
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
-### ⌛ Runtime Comparison
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
-
-Time per inference step is the average of total epoch.
-- **`CPU`**: xx <!--AMD EPYC Processor (with IBPB) (92 core)-->
-- **`RAM`**: xx
-- **`GPU`**: Tesla T4
-- **`Batch size`**: xx
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`
 
@@ -179,6 +191,7 @@ Time per inference step is the average of total epoch.
 - [**Keras Applications**](https://keras.io/api/applications/). Github.
 - _Jason Brownlee. (2019, Jul 5)._ [**How to Normalize, Center, and Standardize Image Pixels in Keras**](https://machinelearningmastery.com/how-to-normalize-center-and-standardize-images-with-the-imagedatagenerator-in-keras/). Machine Learning Mastery.
 - _Dustin. (2022, Oct 20)._[**[Notebooks update] New GPU (T4s) options & more CPU RAM**](https://www.kaggle.com/discussions/product-feedback/361104?fbclid=IwAR2qbmFZTP6BbI7T-hHAAg8ByGiM9cZW_Ik6nHK7-WlRAu8UzoF0R2yCKZY). Kaggle.
+- [**Training strategy**](https://www.neuraldesigner.com/learning/tutorials/training-strategy). Neuraldesigner.
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
