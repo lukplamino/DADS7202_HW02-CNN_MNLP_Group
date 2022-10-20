@@ -27,8 +27,8 @@
 
 **`multi-class image classification`**:
 
-- This project aims to test **3 CNN pre-training models** (`VGG16`, `ResNet50V2`, `EfficientNetB7`) on the ImageNet dataset and fine-tune it to classify 3 types of bananas 🍌 (`Cultivated banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained on. 
-- Then, we will compare performance of **3 CNN pre-training models** without transfer learning and with transfer learning (Fine-tuning).
+- This project aims to test **4 CNN pre-training models** (`VGG16`, `ResNet50V2`, `Xception`, `InceptionV3`) on the ImageNet dataset and fine-tune it to classify 3 types of bananas 🍌 (`Cultivated banana`, `Lady finger banana`, `Cavendish banana`) which is our custom image dataset that were never trained on. 
+- Then, we will compare performance of **4 CNN pre-training models** without transfer learning and with transfer learning (Fine-tuning).
 - Finally, we use **`Grad-CAM`** technique to debug the model and gain more insight into what a trained CNN did.
 
  
