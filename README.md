@@ -73,7 +73,8 @@ There are many banana varieties in Thailand and each one of them has different c
 - 
 #### Data pre-processing
 - The set of images were rescaled to 224x224 pixels and normalized by the ImageDataGenerator class with **`Pixel Standardization`** technique (zero mean and unit variance)
-❕❕ Be careful: The different normalization techniques effect the model's performance. (Loss and Accuracy).
+
+❕ Be careful: The different normalization techniques effect the model's performance. (Loss and Accuracy).
 - We use **`➕Data Augmentation`** technique to increase the diversity of our training set by applying **`ImageDataGenerator`** 
 - We apply various changes to the initial data. For example, image rotation, zoom, shift and flip
 
