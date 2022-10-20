@@ -103,7 +103,7 @@ There are many banana varieties in Thailand and each one of them has different c
 ### Pre-training Models 
 In this experiment,we have selected 4 Pre-training Models for fine-tuning with [**IMAGENET**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/) dataset as weight
 
-#### Pre-training model Infomation
+#### [Pre-training model Infomation](https://keras.io/api/applications/)
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models_info.png" style="width:700px;"/>
 
