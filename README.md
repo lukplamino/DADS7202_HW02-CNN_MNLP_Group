@@ -101,7 +101,9 @@ There are many banana varieties in Thailand and each one of them has different c
 ## 3. Network architecture📦
 
 ### Pre-training Models 
-In this experiment,we have selected 3 Pre-training Models for fine-tuning
+In this experiment,we have selected 4 Pre-training Models for fine-tuning with [**IMAGENET**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/) dataset as weight
+
+#### Pre-training model Infomation
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:550px;"/>
 
