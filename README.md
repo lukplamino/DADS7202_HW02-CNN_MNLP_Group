@@ -70,7 +70,7 @@ There are many banana varieties in Thailand and each one of them has different c
 
 #### 🧹Data preparation:
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
-- 
+
 #### Data pre-processing
 - The set of images were rescaled to 224x224 pixels and normalized by the ImageDataGenerator class with **`Pixel Standardization`** technique (zero mean and unit variance)
 
@@ -127,13 +127,6 @@ Our training strategy is...
 <!-- รายละเอียดของการ train และ validate ข้อมูล รวมถึงทรัพยากรที่ใช้ในการ train โมเดลหนึ่ง ๆ เช่น training strategy (เช่น single loss, compound loss, two-step training, end-to-end training), loss, optimizer (learning rate, momentum, etc), batch size,
 epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TPU ที่ใช้, เวลาโดยประมาณที่ใช้ train โมเดลหนึ่งตัว ฯลฯ -->
 
-### ⌛ Runtime Comparison (on Train set) 
-
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
-
-Time per inference step is the average of epoch.
-- **`GPU`**: Tesla T4
-- **`Epoch`**: 30
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
@@ -148,7 +141,7 @@ Time per inference step is the average of epoch.
 
 From the experiment, We fine-tune the pre-train model with Hyperparameter and find the best model with highest accuracy, less loss and not over-fit.
 
-We train the model with initial random weights in the first round and more 4 rounds without random seed to calculate mean±SD of accuracy and loss as the average of the model performance
+We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss as the average of the model performance
 In each round, accuracy and loss of validate and test sets are not significantly different. That proves the model is good fit.
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
@@ -157,10 +150,21 @@ In each round, accuracy and loss of validate and test sets are not significantly
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
+#### Accuracy on Test set
+- To compare the highest accuracy on test set of each Pre-training models under the same conditions and the same seeds,
+- <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
 ### 🪟 Evaluation metric on Test set
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
+### ⌛ Runtime Comparison (on Train set) 
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+
+Time per inference step is the average of epoch.
+- **`GPU`**: Tesla T4
+- **`Epoch`**: 30
 
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`
@@ -186,13 +190,15 @@ In each round, accuracy and loss of validate and test sets are not significantly
 ### References
 - _-. (2019)._
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
-- _Dustin. (2022, Oct 20)._[**[Notebooks update] New GPU (T4s) options & more CPU RAM**](https://www.kaggle.com/discussions/product-feedback/361104?fbclid=IwAR2qbmFZTP6BbI7T-hHAAg8ByGiM9cZW_Ik6nHK7-WlRAu8UzoF0R2yCKZY). Kaggle.
-- _[fchollet](https://twitter.com/fchollet). (2020, May 12)._[**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
-- _[fchollet](https://twitter.com/fchollet). (2021, March 7)._[**Grad-CAM class activation visualization**](https://keras.io/examples/vision/grad_cam/). Keras.
+- _Dustin. (2022, Oct 20)._ [**[Notebooks update] New GPU (T4s) options & more CPU RAM**](https://www.kaggle.com/discussions/product-feedback/361104?fbclid=IwAR2qbmFZTP6BbI7T-hHAAg8ByGiM9cZW_Ik6nHK7-WlRAu8UzoF0R2yCKZY). Kaggle.
+- _[fchollet](https://twitter.com/fchollet). (2020, May 12)._ [**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
+- _[fchollet](https://twitter.com/fchollet). (2021, March 7)._ [**Grad-CAM class activation visualization**](https://keras.io/examples/vision/grad_cam/). Keras.
 - _Jason Brownlee. (2019, Jul 5)._ [**How to Normalize, Center, and Standardize Image Pixels in Keras**](https://machinelearningmastery.com/how-to-normalize-center-and-standardize-images-with-the-imagedatagenerator-in-keras/). Machine Learning Mastery.
 - _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe. (2019)._ [**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
 - [**Keras Applications**](https://keras.io/api/applications/). Keras.
+- _-. (2022, Sep 8)._[**tf.keras.preprocessing.image.ImageDataGenerator**](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator). TensorFlow.
 - [**Training strategy**](https://www.neuraldesigner.com/learning/tutorials/training-strategy). Neuraldesigner.
+
 
 
 
