@@ -154,6 +154,7 @@ Avg.Time per epoch
 - _[fchollet](https://twitter.com/fchollet). (2020, May 12)._[**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
 - [**Keras Applications**](https://keras.io/api/applications/). Github.
 - _Jason Brownlee. (2019, Jul 5)._ [**How to Normalize, Center, and Standardize Image Pixels in Keras**](https://machinelearningmastery.com/how-to-normalize-center-and-standardize-images-with-the-imagedatagenerator-in-keras/). Machine Learning Mastery.
+- _Dustin. (2022, Oct 20)._[[Notebooks update] New GPU (T4s) options & more CPU RAM](https://www.kaggle.com/discussions/product-feedback/361104?fbclid=IwAR2qbmFZTP6BbI7T-hHAAg8ByGiM9cZW_Ik6nHK7-WlRAu8UzoF0R2yCKZY). Kaggle.
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
