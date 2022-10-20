@@ -190,13 +190,13 @@ Time per inference step is the average of epoch.
 ### References
 - _-. (2019)._
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019): Topspicks.
+- _-. (2022, Sep 8)._[**tf.keras.preprocessing.image.ImageDataGenerator**](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator). TensorFlow.
 - _Dustin. (2022, Oct 20)._ [**[Notebooks update] New GPU (T4s) options & more CPU RAM**](https://www.kaggle.com/discussions/product-feedback/361104?fbclid=IwAR2qbmFZTP6BbI7T-hHAAg8ByGiM9cZW_Ik6nHK7-WlRAu8UzoF0R2yCKZY). Kaggle.
 - _[fchollet](https://twitter.com/fchollet). (2020, May 12)._ [**Transfer learning & fine-tuning**](https://keras.io/guides/transfer_learning/). Keras.
 - _[fchollet](https://twitter.com/fchollet). (2021, March 7)._ [**Grad-CAM class activation visualization**](https://keras.io/examples/vision/grad_cam/). Keras.
 - _Jason Brownlee. (2019, Jul 5)._ [**How to Normalize, Center, and Standardize Image Pixels in Keras**](https://machinelearningmastery.com/how-to-normalize-center-and-standardize-images-with-the-imagedatagenerator-in-keras/). Machine Learning Mastery.
 - _Lang, Steven and Bravo-Marquez, Felipe and Beckham, Christopher and Hall, Mark and Frank, Eibe. (2019)._ [**IMAGENET 1000 Class List**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/). Github.
 - [**Keras Applications**](https://keras.io/api/applications/). Keras.
-- _-. (2022, Sep 8)._[**tf.keras.preprocessing.image.ImageDataGenerator**](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator). TensorFlow.
 - [**Training strategy**](https://www.neuraldesigner.com/learning/tutorials/training-strategy). Neuraldesigner.
 
 
