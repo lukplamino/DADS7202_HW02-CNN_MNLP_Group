@@ -110,7 +110,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models_info.png" style="width:700px;"/>
 
 #### Network Architecture of Pre-training model 
-- To compare Network architecture of Pre-training model **`_without_ Fine-tuning`** VS **`with Fine-tuning`**
+- To compare Network architecture of Pre-training model `**_without_ Fine-tuning**` VS `**with Fine-tuning**`
 - Remark: Based on our dataset and experiment scope
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
