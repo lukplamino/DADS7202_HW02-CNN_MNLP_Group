@@ -105,7 +105,7 @@ In this experiment,we have selected 4 Pre-training Models for fine-tuning with [
 
 #### Pre-training model Infomation
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models-info.png" style="width:550px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/pre-training-models_info.png" style="width:550px;"/>
 
 <!-- รายละเอียดต่าง ๆ ของโมเดลที่เลือกใช้ (เช่น จำนวนและตำแหน่งการวาง layer, จำนวน nodes, activation function, regularization) ในรูปแบบของ network diagram หรือตาราง (โดยใส่ข้อมูลให้ละเอียดพอที่คนที่มาอ่าน จะสามารถไปสร้าง network ตามเราได้) -->
 
