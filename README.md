@@ -169,7 +169,7 @@ Time per inference step is the average of epoch.
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`<sup>4</sup>
 - We use the gradient-weighted class activation mapping (**`Grad-Cam`**) technique to understand which parts of the image are most important for classification.
-> _"The Grad-CAM technique utilizes the gradients of the classification score with respect to the final convolutional feature map, to identify the parts of an input image that most impact the classification score. The places where this gradient is large are exactly the places where the final score depends most on the data."<sup>9</sup>_
+> _"The Grad-CAM technique utilizes the gradients of the classification score with respect to the final convolutional feature map, to identify the parts of an input image that most impact the classification score. The places where this gradient is large are exactly the places where the final score depends most on the data."<sup> 9</sup>_
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/GRAD_CAM.png" style="width:650px;"/>
 
