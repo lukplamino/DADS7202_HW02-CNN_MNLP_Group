@@ -87,7 +87,7 @@ There are many banana<sup>0</sup> varieties in Thailand and each one of them has
         vertical_flip=True,
         validation_split=0.3
 ```
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:400px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:500px;"/>
 
 
 #### ✂️Data splitting (train/val/test):
