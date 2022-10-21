@@ -65,7 +65,7 @@ There are many banana<sup>0</sup> varieties in Thailand and each one of them has
 
  
 #### 📍Data source: 
-- We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images by searching keywords (4 types of banana) from **`google image`** 
+- We use [**Download All Images**](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) extension in chrome web store to collect set of images by searching keywords (3 types of banana) from **`google image searching`** 
 
 
 #### 🧹Data preparation:
@@ -141,8 +141,8 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 
 From the experiment, We fine-tune the pre-train model with Hyperparameter and find the best model with highest accuracy, less loss and not over-fit.
 
-We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss as the average of the model performance
-In each round, accuracy and loss of validate and test sets are not significantly different. That proves the model is good fit.
+We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance
+In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
@@ -168,7 +168,7 @@ Time per inference step is the average of epoch.
 
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`<sup>4</sup>
-- We use the gradient-weighted class activation mapping (**`Grad-Cam`**) technique to understand which parts of the image are most important for classification.
+- We use the gradient-weighted class activation mapping (**`Grad-Cam`**) technique on VGG16 pre-training model with fine-tuning to understand which parts of the image are most important for classification. 
 > _"The Grad-CAM technique utilizes the gradients of the classification score with respect to the final convolutional feature map, to identify the parts of an input image that most impact the classification score. The places where this gradient is large are exactly the places where the final score depends most on the data."<sup> 9</sup>_
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/GRAD_CAM.png" style="width:650px;"/>
@@ -192,7 +192,7 @@ Time per inference step is the average of epoch.
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## 8. References🌐
-<!-- This content will not appear in the rendered Markdown -->
+<!-- อ้างอิงไลบรารีที่ใช้ (พร้อมเวอร์ชัน), อ้างอิงเทคนิคที่ยืมมาใช้จากเปเปอร์, อ้างอิงโค้ดหรือรูปภาพที่หยิบยืมมาใช้จาก github หรือจากที่อื่น ๆ -->
 
 ### Library
 <!-- This content will not appear in the rendered Markdown -->
