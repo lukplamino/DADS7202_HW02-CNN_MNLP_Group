@@ -69,7 +69,7 @@ There are many banana<sup>0</sup> varieties in Thailand and each one of them has
 
 
 #### 🧹Data preparation:
-- Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
+- Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana tree trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
 
 #### Data pre-processing
 - The set of images were rescaled to 224x224 pixels and normalized by the ImageDataGenerator class with **`Pixel Standardization`** technique (zero mean and unit variance)
@@ -168,10 +168,15 @@ Time per inference step is the average of epoch.
 
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`<sup>4</sup>
-- We use the gradient-weighted class activation mapping (`Grad-Cam`) technique to understand which parts of the image are most important for classification.
+- We use the gradient-weighted class activation mapping (**`Grad-Cam`**) technique to understand which parts of the image are most important for classification.
 > The Grad-CAM technique utilizes the gradients of the classification score with respect to the final convolutional feature map, to identify the parts of an input image that most impact the classification score. The places where this gradient is large are exactly the places where the final score depends most on the data.<sup>9</sup>
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/GRAD_CAM.png" style="width:650px;"/>
+
+- For **`Cavendish`** bananas (No.4,5) and **`Cultivated`** bananas (No.7,8), Clearly, the center of the banana fruit has the greatest impact on the classification.
+- Contrarily, for all images that the model predicted **`Lady Finger`** bananas (No.1,2,6), the model focused on the cut stalk of the banana for distinctive features.
+- Moreover, we can use the Grad-CAM heat-maps to give us clues into why the model had trouble making the correct classification. 
+- Look at the pictures (no.3,9) with wrong prediction, we can see from the Grad-CAM that the model is emphasizing background or male flowers and having trouble finding banana fruit features.
 
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
@@ -188,10 +193,13 @@ Time per inference step is the average of epoch.
 
 ## 8. References🌐
 <!-- This content will not appear in the rendered Markdown -->
+
 ### Library
 <!-- This content will not appear in the rendered Markdown -->
+
 ### Version
 <!-- This content will not appear in the rendered Markdown -->
+
 ### References
 - <sup>0</sup>_-. (2019)._
 [**เรื่องกล้วยๆ**](https://www.topspicks.tops.co.th/single-post/tidbits-about-bananas2019). Topspicks.
