@@ -169,6 +169,10 @@ Time per inference step is the average of epoch.
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`<sup>4</sup>
 
+
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/GRAD_CAM.png" style="width:650px;"/>
+
+
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 
