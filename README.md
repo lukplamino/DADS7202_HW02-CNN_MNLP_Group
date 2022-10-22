@@ -188,7 +188,19 @@ Time per inference step is the average of epoch.
 
 
 ## 6. Discussion💭
-<!-- อภิปรายผลลัพธ์ที่ได้ว่ามีอะไรเป็นไปตามสมมติฐาน หรือมีอะไรผิดคาด ไม่เป็นไปตามสมมติฐานบ้าง, วิเคราะห์เพิ่มเติมว่าสิ่งที่ผิดคาดหรือผิดปกตินั้นน่าจะเกิดจากอะไร, ในกรณีที่ dataset มีปัญหา (เช่นกรณี imbalanced dataset) ควรวิเคราะห์ด้วยว่าวิธีแก้ที่เราใช้สามารถแก้ปัญหาของ dataset ได้จริงหรือไม่ -->
+-	With ImageDataGenerator(), apart from rotation and flip, we have tried rescaling with variety methods. Firstly, rescale = 1./255, it shows the worth accuracy rate at about 0.3611 as it just resize pictures by dividing 255. Next, featurewise_center and featurewise_std_normalization which set dataset mean to 0 and normalized over dataset; as a result, accuracy spike to 0.6278. Lastly, samplewise_center and samplewise_std_normalization is similar to the previous method but done over each input. All in all, we chose samplewise_center and samplewise_std_normalization as it shows the higher accuracy rate at 0.7778
+-	In the beginning of work, we tried load data with flow_from_directory() that labels of picture will be one-hot encoded i.e. [1 0 0 0] for label number 1; consequently, a loss function must be “CategoricalCrossentropy”. However, we decided to load data with NumPy that labeled data from [0-2] i.e [1] for label number 1. As a result, “SparseCategoricalCrossentropy” is chosen to be the loss function
+-	We experience running out of free-access GPU on GoogleColab. So, we try using other accounts, using local GPU on our own computers, and registered for ColabPro since CNN have noticeable difference run-time on CPU and GPU. Execution with CPU roughly takes 40 times of time consuming over GPU (200s vs 5s per epochs)
+-	Among learning rate of 0.01, 0.001, 0.0001 and 0.00001, learning rate at 0.001 shows the best accuracy over test data set 
+Note: result dementated below is tested with InceptionV3 model
+
+<p align="center">
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/accuracy_compare.png" style="width:250px;"/>
+</p>
+
+-	Another hyperparameter that affects model accuracy is batch_size, moreover, it varies among models. We use batch_size among 32, 64, and 128
+-	We also struggle with random seed, setting fixed random seed at the top does not affect the following codes i.e. accuracy over test set changes as we repeat run. The solution of this is to set seed to all code that available
+
 
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
