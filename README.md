@@ -164,7 +164,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 -	After fine-tuning, all selected models show improvement on test accuracy average at **`🔼5.23%`**
 
 ### 🪟 Evaluation metric on Test set
-- From VGG16 model with fine-tuning model shows that the most precise classification is **“Cavendish Banana”**. 
+- VGG16 model with fine-tuning showed that the most precise classification is **“Cavendish Banana”**. 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Evaluation-Matrix.png" style="width:600px;"/>
 
 ### ⌛ Runtime Comparison (on Train set) 
