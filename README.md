@@ -167,8 +167,8 @@ Time per inference step is the average of epoch.
 - **`Epoch`**: 30
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Runtime.png" style="width:550px;"/>
 
-- **`InceptionV3`** pre-training model with fine-tuning spends the shortest time per epoch to train the model on test set.
-- On the contrary, **`Xception`** pre-training model with fine-tuning spends the shortest time per epoch among these 4 models.
+- **`InceptionV3`** pre-training model with fine-tuning spended the shortest time per epoch to train the model on test set.
+- On the contrary, **`Xception`** pre-training model with fine-tuning spended the shortest time per epoch among these 4 models.
 
 
 
