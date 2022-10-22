@@ -237,6 +237,8 @@ Python 3.7.15 (default, Oct 12 2022, 19:14:55)
 NumPy 1.21.6
 
 The scikit-learn version is 1.0.2
+The Matplotlib version is 3.2.2
+The Seaborn version is 0.11.2
 TensorFlow 2.9.2
 tf.keras.backend.image_data_format() = channels_last
 TensorFlow detected 1 GPU(s):
