@@ -149,7 +149,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
-#### Accuracy and Loss on Train vs Validate sets
+#### Accuracy and Loss on Train vs Validation sets
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Acc_Loss.png" style="width:650px;"/>
 
