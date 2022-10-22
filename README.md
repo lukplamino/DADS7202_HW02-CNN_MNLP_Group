@@ -180,7 +180,8 @@ Time per inference step is the average of epoch.
 - **`InceptionV3`** pre-training model with fine-tuning spended the shortest time per epoch to train the model on test set.
 - On the contrary, **`Xception`** pre-training model with fine-tuning spended the shortest time per epoch among these 4 models.
 
-
+### 💡Visualizing bubble chart to comparing pre-training models in all aspects
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/viz.png" style="width:800px;"/>
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`<sup>4</sup>
 - We use the gradient-weighted class activation mapping (**`Grad-Cam`**) technique on VGG16 pre-training model with fine-tuning to understand which parts of the image are most important for classification. 
