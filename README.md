@@ -206,6 +206,12 @@ Note: result dementated below is tested with InceptionV3 model
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
 ## 7. Conclusion📝
+-	We select 4 pre-trained models; namely, VGG16, Xception, ResNetV2, and InceptionV3
+-	The best pre-trained model (No Fine-tune) among the selected models is Xception with average accuracy rate at 85.37% while after fine tuning it turns out that VGG16 becomes the best model with the highest accuracy on test set at 91.66% from 84.63%
+-	After fine-tuning, all selected models show improvement on test accuracy average at 5.23% 
+-	The overall run-time among the selected model is 5-6s per epochs under GPU usage
+-	The most precise classification is “Cavandish Banana”. From Grad-Cam, it shows that the model focuses on banana to determine whether it is Cavandish banana or Cultivated banana whereas Lady finger banana is focused at the cut stalk of the banana for distinctive features by the model
+
 <!-- สรุปผลของการบ้านนี้ โดยเน้นการตอบโจทย์ปัญหา (research question) หรือจุดประสงค์หลัก (objective) ของการบ้านแต่ละครั้ง -->
 [🔝](https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/README.md#highlight)
 
