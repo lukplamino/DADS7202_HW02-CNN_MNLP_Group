@@ -161,7 +161,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance2.png" style="width:500px;"/>
 
 -	The best pre-trained model (No Fine-tune) among the selected models is **`🏆Xception`** with average accuracy rate at **`85.37%`** while after fine tuning it turns out that **`🏆VGG16`** becomes the best model with the highest accuracy on test set at **`91.66%`** from 84.63%
--	After fine-tuning, all selected models show improvement on test accuracy average at **`5.23%`**
+-	After fine-tuning, all selected models show improvement on test accuracy average at **`🔼5.23%`**
 
 ### 🪟 Evaluation metric on Test set
 - From VGG16 model with fine-tuning model shows that the most precise classification is **“Cavendish Banana”**. 
