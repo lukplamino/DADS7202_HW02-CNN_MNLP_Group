@@ -180,10 +180,13 @@ Time per inference step is the average of epoch.
 - **`InceptionV3`** pre-training model with fine-tuning spended the shortest time per epoch to train the model on test set.
 - On the contrary, **`Xception`** pre-training model with fine-tuning spended the shortest time per epoch among these 4 models.
 
+
 ### 💡Visualizing bubble chart to compare pre-training models with fine-tuning in all aspects
 Based on our dataset and experiment scope,
-- The highest average accuracy on test set is **`🥇VGG16`** at 91.66%.
-- The fastest runtime on train set is **`🥇InceptionV3`** at 5.278 seconds per epoch on Tesla T4 GPU.
+- The **highest average accuracy** on test set is **`🥇VGG16`** model at 91.66%.
+- The **fastest runtime** on train set is **`🥇InceptionV3`** model at 5.278 seconds per epoch on Tesla T4 GPU.
+- The **biggest size** is **`🥇VGG16`** model at 528 Mb.
+- The **most of no. of parameters** is **`🥇ResNet50V2`** model at 75.02mn parameters.
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/viz.png" style="width:700px;"/>
 
