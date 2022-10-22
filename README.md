@@ -140,7 +140,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 
 ### 📊 Model Performance Comparison
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance.png" style="width:500px;"/>
 
 From the experiment, We fine-tune the pre-train model with Hyperparameter and find the best model with highest accuracy, less loss and not over-fit.
 
