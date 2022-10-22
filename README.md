@@ -151,7 +151,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 
 #### Accuracy and Loss on Train vs Validate sets
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Acc_Loss.png" style="width:700px;"/>
 
 #### Accuracy on Test set
 - To compare the highest accuracy on test set of each Pre-training models under the same conditions and the same seeds,
