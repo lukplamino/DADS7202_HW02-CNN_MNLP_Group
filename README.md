@@ -256,7 +256,7 @@ Note: result dementated below is tested with InceptionV3 model
 |:---:|:---:             |---                               |:---:            |:---|
 |1.  |**`6410422002`**  |[Navapol San.](https://www.kaggle.com/navapol)                      |   **`25%`**     |**`Collecting data (Cavendish banana)`**, **`Fine-tune Model (Xception)`**
 |2.  |**`6410422003`**  |[Pakawut Kam.](https://www.kaggle.com/ppakawut)                     |   **`25%`**     |**`Collecting data (Lady finger banana)`**, **`Fine-tune Model (InceptionV3)`**  |
-|3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**, **`Fine-tune Model (ResNet50V2)`**   |
+|3.  |**`6410422024`**  |[Supisara Poo.](https://www.kaggle.com/supisarapo)                     |   **`25%`**     |**`Collecting data (Cultivated banana)`**, **`Fine-tune Model (ResNet50V2)`**,    |
 |4.  |**`6410422027`**  |[Kantima Tec.](https://www.kaggle.com/kantimatec)                     |   **`25%`**     |**`Fine-tune Model (VGG16)`**, **`Summary the report`**  |
 
 
