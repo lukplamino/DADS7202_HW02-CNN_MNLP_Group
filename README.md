@@ -219,9 +219,29 @@ Note: result dementated below is tested with InceptionV3 model
 <!-- อ้างอิงไลบรารีที่ใช้ (พร้อมเวอร์ชัน), อ้างอิงเทคนิคที่ยืมมาใช้จากเปเปอร์, อ้างอิงโค้ดหรือรูปภาพที่หยิบยืมมาใช้จาก github หรือจากที่อื่น ๆ -->
 
 ### Library
+```
+- Pandas
+- Numpy
+- Sklearn
+- Keras
+- Matplotlib
+- Seaborn
+```
 <!-- This content will not appear in the rendered Markdown -->
 
 ### Version
+```
+Python 3.7.15 (default, Oct 12 2022, 19:14:55) 
+[GCC 7.5.0]
+
+NumPy 1.21.6
+
+The scikit-learn version is 1.0.2
+TensorFlow 2.9.2
+tf.keras.backend.image_data_format() = channels_last
+TensorFlow detected 1 GPU(s):
+.... GPU No. 0: Name = /physical_device:GPU:0 , Type = GPU
+```
 <!-- This content will not appear in the rendered Markdown -->
 
 ### References
