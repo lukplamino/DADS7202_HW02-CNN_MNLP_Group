@@ -105,7 +105,7 @@ There are many banana<sup>0</sup> varieties in Thailand and each one of them has
 ## 3. Network architecture📦
 
 ### Pre-training Models 
-In this experiment, we have selected 4 Pre-training Models for fine-tuning with [**IMAGENET**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/)<sup>6</sup> dataset as weight and complied with 
+In this experiment, we have selected 4 Pre-training Models for fine-tuning with [**IMAGENET**](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/)<sup>6</sup> dataset as weight
 
 #### [Pre-training model Infomation](https://keras.io/api/applications/)<sup>7</sup>
 
