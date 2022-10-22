@@ -219,14 +219,12 @@ Note: result dementated below is tested with InceptionV3 model
 <!-- อ้างอิงไลบรารีที่ใช้ (พร้อมเวอร์ชัน), อ้างอิงเทคนิคที่ยืมมาใช้จากเปเปอร์, อ้างอิงโค้ดหรือรูปภาพที่หยิบยืมมาใช้จาก github หรือจากที่อื่น ๆ -->
 
 ### Library
-```
 - Pandas
 - Numpy
 - Sklearn
 - Keras
 - Matplotlib
 - Seaborn
-```
 <!-- This content will not appear in the rendered Markdown -->
 
 ### Version
