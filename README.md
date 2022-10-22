@@ -177,7 +177,7 @@ Time per inference step is the average of epoch.
 
 -	The overall run-time among the selected model is 5-6s per epochs under GPU usage
 - **`InceptionV3`** pre-training model with fine-tuning spended the shortest time per epoch to train the model on test set.
-- On the contrary, **`Xception`** pre-training model with fine-tuning spended the shortest time per epoch among these 4 models.
+- On the contrary, **`Xception`** pre-training model with fine-tuning spended the longest time per epoch among these 4 models.
 
 
 ### 🎖️Visualizing bubble chart to compare pre-training models with fine-tuning in all aspects
