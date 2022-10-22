@@ -167,7 +167,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 
 ### 🪟 Evaluation metric on Test set
 - **`VGG16`** model with fine-tuning showed that the most precise classification is **“Cavendish Banana”**. 
-- However, other models (`ResNet50V2`, `Xception` and `InceptionV3`) are good at classifing **Lady Finger** banana.
+- However, other models (`ResNet50V2`, `Xception` and `InceptionV3`) are good at classifing **“Lady Finger Banana”**.
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Evaluation-Matrix.png" style="width:600px;"/>
 
 ### ⌛ Runtime Comparison (on Train set) 
