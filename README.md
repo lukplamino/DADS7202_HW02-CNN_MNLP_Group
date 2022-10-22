@@ -115,7 +115,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 #### Network Architecture of Pre-training model 
 - To compare Network architecture of Pre-training model **`without Fine-tuning`**  VS **`with Fine-tuning`**
-- Remark: Based on our dataset and experiment scope
+- Remark: Based on our dataset and our experiment scope
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Network_Architechture.png" style="width:900px;"/>
 
 #### Network Diagram of Pre-training model with Fine-tuning
@@ -145,7 +145,7 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 การแสดงผลลัพธ์เทียบ train vs. validation (เช่น loss, accuracy) ถ้าเป็นไปได้ควรแสดงไว้ในกราฟเดียวกันเพื่อให้สามารถเทียบ scale ค่าผลลัพธ์และดู underfit / overfit ได้ง่าย-->
 
 ### 📊 Model Performance Comparison
-From the experiment, We fine-tune each pre-training model with Hyperparameter more than 40-50 times to find the best model's performance with highest accuracy, less loss and not over-fit.
+From the experiment, We fine-tune each pre-training model with Hyperparameter more than 50 times to find the best model's performance with highest accuracy, less loss and not over-fit.
 
 We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance
 In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.
@@ -182,7 +182,7 @@ Time per inference step is the average of epoch.
 
 
 ### 💡Visualizing bubble chart to compare pre-training models with fine-tuning in all aspects
-Based on our dataset and experiment scope,
+Based on our dataset and our experiment scope,
 - The **highest average accuracy** on test set is **`🥇VGG16`** model at 91.66%.
 - The **fastest runtime** on train set is **`🥇InceptionV3`** model at 5.278 seconds per epoch on Tesla T4 GPU.
 - The **biggest size** is **`🥇VGG16`** model at 528 Mb.
