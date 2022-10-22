@@ -146,7 +146,7 @@ From the experiment, We fine-tune each pre-training model with Hyperparameter mo
 We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance
 In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance.png" style="width:400px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance1.png" style="width:500px;"/>
 
 
 
@@ -156,7 +156,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 
 #### Accuracy on Test set
 - To compare the highest accuracy on test set of each Pre-training models under the same conditions and the same seeds,
-- <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance2.png" style="width:500px;"/>
 
 ### 🪟 Evaluation metric on Test set
 
