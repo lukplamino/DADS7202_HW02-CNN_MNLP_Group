@@ -162,12 +162,14 @@ In each round, accuracy and loss of test sets are not significantly different. T
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
 ### ⌛ Runtime Comparison (on Train set) 
-
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
-
 Time per inference step is the average of epoch.
 - **`GPU`**: Tesla T4
 - **`Epoch`**: 30
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Runtime.png" style="width:400px;"/>
+
+- **`InceptionV3`** pre-training model with fine-tuning spends the shortest time per epoch to train the model on test set.
+- On the contrary, **`Xception`** pre-training model with fine-tuning spends the shortest time per epoch among these 4 models.
+
 
 
 ### 🔦 Visualizing what CNN learned with `Grad-Cam`<sup>4</sup>
