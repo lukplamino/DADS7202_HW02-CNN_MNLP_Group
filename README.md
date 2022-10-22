@@ -73,7 +73,9 @@ There are many banana<sup>0</sup> varieties in Thailand and each one of them has
 #### 🧹Data preparation:
 - Collecting set of images from the Internet source is a quick and simple method to gather a set of images. Some facts, meanwhile, are not entirely accurate or useful. As a result, we have to manually remove several unnecessary images from the collection, such as banana dessert, banana tree trunk, other banana pieces, and duplicate images. Additionally, because the keyword and banana type are inconsistent, we need to recheck the banana type labels.
 
+
 #### Data pre-processing
+- Firstly, generate images as in .npy before flow those image into the model
 - The set of images were rescaled to 224x224 pixels and normalized by the ImageDataGenerator class with **`Pixel Standardization`** technique (zero mean and unit variance)
 
 ❕ Be careful: The different normalization techniques<sup>5</sup> effect the model's performance. (Loss and Accuracy).
