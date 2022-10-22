@@ -126,7 +126,8 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 ## 4. Training🔮
 Our training strategy is...
-1. 
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/training_part.png" style="width:500px;"/>
+
 <!-- รายละเอียดของการ train และ validate ข้อมูล รวมถึงทรัพยากรที่ใช้ในการ train โมเดลหนึ่ง ๆ เช่น training strategy (เช่น single loss, compound loss, two-step training, end-to-end training), loss, optimizer (learning rate, momentum, etc), batch size,
 epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TPU ที่ใช้, เวลาโดยประมาณที่ใช้ train โมเดลหนึ่งตัว ฯลฯ -->
 
@@ -144,7 +145,7 @@ From the experiment, We fine-tune each pre-training model with Hyperparameter mo
 We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance
 In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance.png" style="width:500px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance.png" style="width:400px;"/>
 
 
 
