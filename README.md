@@ -115,9 +115,9 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
 #### Network Diagram of Pre-training model with Fine-tuning
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Network_Diagram.png" style="width:800px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Network_Diagram.png" style="width:700px;"/>
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Network_Diagram_InceptionV3.png" style="width:800px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Network_Diagram_InceptionV3.png" style="width:700px;"/>
 
 <!-- รายละเอียดต่าง ๆ ของโมเดลที่เลือกใช้ (เช่น จำนวนและตำแหน่งการวาง layer, จำนวน nodes, activation function, regularization) ในรูปแบบของ network diagram หรือตาราง (โดยใส่ข้อมูลให้ละเอียดพอที่คนที่มาอ่าน จะสามารถไปสร้าง network ตามเราได้) -->
 
@@ -151,7 +151,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 
 #### Accuracy and Loss on Train vs Validate sets
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Acc_Loss.png" style="width:700px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Acc_Loss.png" style="width:650px;"/>
 
 #### Accuracy on Test set
 - To compare the highest accuracy on test set of each Pre-training models under the same conditions and the same seeds,
