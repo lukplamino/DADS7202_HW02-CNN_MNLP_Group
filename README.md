@@ -159,7 +159,7 @@ In each round, accuracy and loss of test sets are not significantly different. T
 
 ### 🪟 Evaluation metric on Test set
 
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Evaluation-Matrix.png" style="width:600px;"/>
 
 ### ⌛ Runtime Comparison (on Train set) 
 Time per inference step is the average of epoch.
