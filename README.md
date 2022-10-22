@@ -139,13 +139,13 @@ epoch, รุ่นและจำนวน CPU หรือ GPU หรือ TP
 การแสดงผลลัพธ์เทียบ train vs. validation (เช่น loss, accuracy) ถ้าเป็นไปได้ควรแสดงไว้ในกราฟเดียวกันเพื่อให้สามารถเทียบ scale ค่าผลลัพธ์และดู underfit / overfit ได้ง่าย-->
 
 ### 📊 Model Performance Comparison
-
-<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance.png" style="width:500px;"/>
-
-From the experiment, We fine-tune the pre-train model with Hyperparameter and find the best model with highest accuracy, less loss and not over-fit.
+From the experiment, We fine-tune each pre-training model with Hyperparameter more than 40-50 times to find the best model's performance with highest accuracy, less loss and not over-fit.
 
 We pre-train the model with initial random weights in the first round and more 2 rounds without random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance
 In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.
+<img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Performance.png" style="width:500px;"/>
+
+
 
 <img src="https://github.com/lukplamino/DADS7202_HW02-CNN_MNLP_Group/blob/main/Images/Data_Augmentation.png" style="width:50px;"/>
 
