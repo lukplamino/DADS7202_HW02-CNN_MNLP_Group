@@ -1,5 +1,5 @@
 # DADS7202_Group Assignment 2 CNN (Group_MNLP)
-> Objective: **`What do you use to train an image classiffier with our custom image dataset?`**
+> Objective: **`What do you use to train an image classifier with our custom image dataset?`**
 ## ✨Highlight
 1.	**Based on pre-trained model,** the highest average accuracy rate is **85.37% of 🏆Xception model**
 2.	The best model **after fine tuning pre-trained model is 🏆VGG16**. The average accuracy on test data is at **91.66%** rising from 84.63% (no tune)
